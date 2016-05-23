@@ -18,7 +18,7 @@ import (
 )
 
 // NewProject creates a Project with the specified context.
-func NewProject(context *ctx.Context, parseOptions *config.ParseOptions) (project.APIProject, error) {
+func NewProject(context *ctx.Context, parseOptions *config.ParseOptions) (*project.Project, error) {
 
 	if err := context.LookupConfig(); err != nil {
 		logrus.Errorf("Failed to load docker config: %v", err)
