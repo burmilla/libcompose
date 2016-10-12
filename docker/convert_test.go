@@ -56,3 +56,14 @@ func TestParseLabels(t *testing.T) {
 	assert.Equal(t, yaml.Command{bashCmd}, sc.Entrypoint)
 	assert.Equal(t, []string{"less"}, []string(cfg.Entrypoint))
 }
+
+func TestOomScoreAdj(t *testing.T) {
+	ctx := &ctx.Context{}
+	sc := &config.ServiceConfig{
+		OomScoreAdj: 500,
+	}
+	_, hostCfg, err := Convert(sc, ctx.Context, nil)
+	assert.Nil(t, err)
+
+	assert.Equal(t, 500, hostCfg.OomScoreAdj)
+}
