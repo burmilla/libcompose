@@ -12,7 +12,7 @@ clone git github.com/docker/distribution 467fc068d88aa6610691b7f1a677271a3fac4aa
 clone git github.com/vbatts/tar-split v0.9.11
 clone git github.com/docker/docker v1.11.1
 clone git github.com/docker/go-units 651fc226e7441360384da338d0fd37f2440ffbe3
-clone git github.com/docker/go-connections v0.2.0
+clone git github.com/burmilla/go-connections-old v0.2.0
 clone git github.com/docker/engine-api v0.3.3
 clone git github.com/flynn/go-shlex 3f9db97f856818214da2e1057f8ad84803971cff
 clone git github.com/gorilla/context 14f550f51a

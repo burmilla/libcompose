@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/burmilla/go-connections-old/tlsconfig"
 	"github.com/docker/docker/cliconfig"
-	"github.com/docker/go-connections/tlsconfig"
 )
 
 // TestCreateWithEnv creates client(s) using environment variables, using an empty Options.

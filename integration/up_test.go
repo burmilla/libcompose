@@ -7,8 +7,8 @@ import (
 
 	"golang.org/x/net/context"
 
+	"github.com/burmilla/go-connections-old/nat"
 	"github.com/docker/engine-api/types"
-	"github.com/docker/go-connections/nat"
 	"github.com/docker/libcompose/utils"
 
 	. "gopkg.in/check.v1"
