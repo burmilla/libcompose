@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/burmilla/go-connections-old/nat"
-	"github.com/xeipuuv/gojsonschema"
+	"github.com/burmilla/gojsonschema-old"
 )
 
 var (

@@ -15,7 +15,7 @@ References :
 ## Installation
 
 ```
-go get github.com/xeipuuv/gojsonschema
+go get github.com/burmilla/gojsonschema-old
 ```
 
 Dependencies :
@@ -33,7 +33,7 @@ package main
 
 import (
     "fmt"
-    "github.com/xeipuuv/gojsonschema"
+    "github.com/burmilla/gojsonschema-old"
 )
 
 func main() {
